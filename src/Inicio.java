@@ -3,7 +3,13 @@ public class Inicio {
 	
 	public static void main(String[] args){
 		System.out.print("hola mundo");
-		
+		new Triangulo().perimetro();;
+	}
+	
+	public static void impar(int num){
+		if(num%2==1)
+			System.out.print("impar");
+			
 	}
 	
 	public static void par(int numero){
@@ -11,5 +17,6 @@ public class Inicio {
 			System.out.print("Es par");
 		}
 	}
+
 
 }
