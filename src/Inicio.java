@@ -7,7 +7,7 @@ public class Inicio {
 	}
 	
 	public static void impar(int num){
-		if(num%2==1)
+//		if(num%2==1)
 			System.out.print("impar");
 			
 	}
