@@ -1,9 +1,13 @@
+import vista.Principal;
+import formulas.Area;
 
 public class Inicio {
 	
 	public static void main(String[] args){
 		System.out.print("hola mundo");
-		new Triangulo().perimetro();;
+		new Triangulo().perimetro();
+		new Principal();
+		new Area().triangulo();
 	}
 	
 	public static void impar(int num){
